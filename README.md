@@ -2,8 +2,16 @@
 
 ## Setup
 
-For setup instructions, please see the [Fabric Documentation page](https://docs.fabricmc.net/develop/getting-started/creating-a-project#setting-up) related to the IDE that you are using.
+step 1 put in mods folder
+
+step 2 open minceraft
+
+step 3 make tomato sauce
+
+step 4 make frozen pizza
+
+step 5 eat frozen pizza
 
 ## License
 
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+This mod is available under the CC0 license.
