@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "NnN",
+    "B#B",
+    "NnN"
+  ],
+  "key": {
+    "#": "frozen-pizza:tomato_sauce",
+    "N": "minecraft:ice",
+    "n": "minecraft:milk_bucket",
+    "B": "minecraft:bread"
+  },
+  "result": {
+    "id": "frozen-pizza:frozen_pizza",
+    "count": 1
+  }
+}

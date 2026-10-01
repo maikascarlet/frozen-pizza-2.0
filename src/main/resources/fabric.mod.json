@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 2,
+	"id": "frozen-pizza",
+	"version": "${version}",
+	"name": "frozen pizza",
+	"description": "this is stupid im so sorry :sob:",
+	"authors": [
+		"Maika Scarlet"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/frozen-pizza/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"maikascarlet.frozenpizza.FrozenPizza"
+		],
+		"client": [
+			"maikascarlet.frozenpizza.client.FrozenPizzaClient"
+		]
+	},
+	"mixins": [
+		"frozen-pizza.mixins.json",
+		{
+			"config": "frozen-pizza.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
